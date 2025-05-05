@@ -46,7 +46,7 @@ A Flutter app that displays a list of trending movies fetched from The Movie Dat
 
 ### Clone the Repository
 
-git clone https://github.com/yourusername/trending-movies-app.git
+[git clone https://github.com/yourusername/trending-movies-app.git](https://github.com/TarunKanth007/trending-movies-app.git)
 cd trending-movies-app
 
 ### Install Dependencies
@@ -58,7 +58,7 @@ flutter pub get
 In the lib/api/api.dart file, add your TMDB API key. Replace your_api_key_here with the actual API key.
 
 class Api {
-  final String _apiKey = 'your_api_key_here';
+  final String _apiKey = '2cb0292b03fe9b2060d5bdfc7cc0c94b';
   final String _baseUrl = 'https://api.themoviedb.org/3';
 
   Future<List<Movie>> getTrendingMovies({int page = 1, String query = ''}) async {
@@ -136,3 +136,14 @@ Error Handling: Improve error handling for network requests.
 Unit Testing: Add unit tests for API requests and UI components.
 
 Caching: Implement local storage for movie data to prevent unnecessary API calls on app restart.
+### Home Screen
+![Screenshot 2025-05-05 195908](https://github.com/user-attachments/assets/ce6d9f02-d703-4352-9df5-312101f21857)
+
+### Details Screen 
+![Screenshot 2025-05-05 195427](https://github.com/user-attachments/assets/9147b1f5-3989-47ae-9b39-e4a9821bf976)
+
+### Watch Trailer
+![Screenshot 2025-05-05 195442](https://github.com/user-attachments/assets/34557090-6e20-4226-bb91-51ded1027eef)
+
+### Trailer Screen
+![Screenshot 2025-05-05 195502](https://github.com/user-attachments/assets/51e21cc7-9946-491a-8073-1a8f59bfb3c7)

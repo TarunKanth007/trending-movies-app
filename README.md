@@ -115,22 +115,17 @@ youtube_player_flutter: For embedding YouTube trailers in the details screen.
 
 cached_network_image: For caching and optimizing network images (e.g., movie posters).
 
-### Screenshots
-Home Screen:
-
-Movie Details Screen:
-
-License
+### License
 This project is open source and available under the MIT License. See the LICENSE file for more information.
 
-Additional Notes:
+### Additional Notes:
 The UI is responsive and adjusts for different screen sizes (e.g., tablets, phones).
 
 The app supports infinite scroll to fetch more movies as the user scrolls.
 
 The movie details page provides an embedded YouTube trailer player and displays movie details including cast, rating, release date, etc.
 
-Future Improvements
+### Future Improvements
 Error Handling: Improve error handling for network requests.
 
 Unit Testing: Add unit tests for API requests and UI components.
